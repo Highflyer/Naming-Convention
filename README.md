@@ -34,7 +34,7 @@
 
 在 PHP、Ruby 和 Python 中使用了蛇形命名法。这个约定有一个变体，即所有的单词都大写，用下划线分隔（例如：MY_CONSTANT_NAME）。多数语言的常量名称都使用这种形式。大写小写这两种变体可以分别表述为大蛇形（BIG_SNAKE_CASE）和小蛇形（small_snake_case）。
 
-### 如此：
+### 实际应用惯例：
 
 1. 目录和文件
      - 目录使用小蛇形命名（small_snake_case）；
