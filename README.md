@@ -37,20 +37,20 @@
 ### 如此：
 
 1. 目录和文件
-  - 目录使用小蛇形命名（small_snake_case）；
-  - 类的文件名均以命名空间定义，并且命名空间的路径和类库文件所在路径一致；
-  - 类（包含接口和 Trait）文件采用帕斯卡命名（PascalCase），其它文件采用小蛇形命名（small_snake_case）；
-  - 类名（包括接口和 Trait）和文件名保持一致，统一采用帕斯卡命名（PascalCase）；
+     - 目录使用小蛇形命名（small_snake_case）；
+     - 类的文件名均以命名空间定义，并且命名空间的路径和类库文件所在路径一致；
+     - 类（包含接口和 Trait）文件采用帕斯卡命名（PascalCase），其它文件采用小蛇形命名（small_snake_case）；
+     - 类名（包括接口和 Trait）和文件名保持一致，统一采用帕斯卡命名（PascalCase）；
 2. 函数和类、属性命名
-  - 类的命名采用帕斯卡命名法（PascalCase），例如 User、ResponseEntity；
-  - 函数的命名使用小蛇形（small_Snake_case）的方式，例如 get_client_ip；
-  - 方法的命名使用驼峰法（camelCase），例如 getUserName；
-  - 属性的命名使用驼峰法（camelCase），例如 tableName、instance；
-  - 特例：以双下划线__打头的函数或方法作为魔术方法，例如 __call 和 __autoload；
+     - 类的命名采用帕斯卡命名法（PascalCase），例如 User、ResponseEntity；
+     - 函数的命名使用小蛇形（small_Snake_case）的方式，例如 get_client_ip；
+     - 方法的命名使用驼峰法（camelCase），例如 getUserName；
+     - 属性的命名使用驼峰法（camelCase），例如 tableName、instance；
+     - 特例：以双下划线__打头的函数或方法作为魔术方法，例如 __call 和 __autoload；
 3. 常量和配置
-  - 常量以大蛇形命名（BIG_SNAKE_CASE），例如 APP_PATH；
-  - 配置参数以小蛇形命名（small_snake_case），例如 url_route_on 和 url_convert；
-  - 环境变量定义使用大蛇形命名（BIG_SNAK_CASE），例如 APP_DEBUG；
+     - 常量以大蛇形命名（BIG_SNAKE_CASE），例如 APP_PATH；
+     - 配置参数以小蛇形命名（small_snake_case），例如 url_route_on 和 url_convert；
+     - 环境变量定义使用大蛇形命名（BIG_SNAK_CASE），例如 APP_DEBUG；
 4. 数据表和字段
-  - 数据表和字段采用小蛇形命名（small_snake_case），并注意字段名不要以下划线开头，例如 think_user 表和 user_name 字段，不建议使用驼峰和中文作为数据表及字段命名。
+     - 数据表和字段采用小蛇形命名（small_snake_case），并注意字段名不要以下划线开头，例如 think_user 表和 user_name 字段，不建议使用驼峰和中文作为数据表及字段命名。
 
