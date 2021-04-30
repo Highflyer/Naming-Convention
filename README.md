@@ -4,7 +4,7 @@
 
 ### 约定一：驼峰命名法（Camel case）
 
-单词之间没有空格。除第一个单词外，每个单词都以大写字母开头。
+单词之间没有空格，除第一个单词外，每个单词都以大写字母开头。
 
 例如：camelCase, myVariableName, myUrl, getUsers, beforeBodyWrite, returnType
 
@@ -12,7 +12,7 @@
 
 ### 约定二： 帕斯卡命名法（Pascal case）
 
-单词之间没有空格。每个单词都以大写字母开头。
+单词之间没有空格，每个单词都以大写字母开头。
 
 举例：PascalCase, MyVariableName, MyUrl, GetUsers, RuntimeException，AppVersion
 
